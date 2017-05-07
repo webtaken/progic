@@ -4,7 +4,7 @@ if (isset($_POST['name']) && !empty($_POST['name'])
     && isset($_POST['email']) && !empty($_POST['email'])
     && isset($_POST['message']) && !empty($_POST['message'])
     ) {
-    $destination = "leranprogic@gmail.com";
+    $destination = "<youremail>@gmail.com";
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
